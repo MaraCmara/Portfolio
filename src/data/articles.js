@@ -23,7 +23,7 @@ const articles = [
     description: "Plakát vytvořený pro Skautský institut v Praze k příležitosti 30. výročí Sametové revoluce",
     resources: [
       {
-        image: "/IMG/20/01.jpg",
+        image: "/IMG/21/01.jpg",
       },
     ],
   },

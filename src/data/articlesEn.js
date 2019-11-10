@@ -23,7 +23,7 @@ const articles = [
     description: "Poster for Scout institut in Prague for 30th anniversary o Velvet revolution",
     resources: [
       {
-        image: "/IMG/20/01.jpg",
+        image: "/IMG/21/01.jpg",
       },
     ],
   },

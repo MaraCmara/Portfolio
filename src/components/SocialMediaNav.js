@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const A = styled.a`
-	font-size:25px;
+	font-size: 25px;
 	text-align: center;
 	@media only screen and (min-height: 450px) and (orientation: landscape) {
 		display: inline;
@@ -22,15 +22,17 @@ const A = styled.a`
 
 export const SocialMediaNav = () => {
 	return (
-		<span >
-			<A href='https://www.facebook.com/martinafischmeister/' target='_blank'>
+		<span>
+			<A href='https://www.facebook.com/cmaraillustration/' target='_blank'>
 				Facebook
 			</A>
 
-			<A href='https://www.instagram.com/fischmeisterr/' target='_blank'>
+			<A href='https://www.instagram.com/mara_cmara/' target='_blank'>
 				Instagram
 			</A>
-			<A href='https://www.instagram.com/fischmeisterr/' target='_blank'>
+			<A
+				href='https://www.behance.net/maracmara/'
+				target='_blank'>
 				Behance
 			</A>
 		</span>
