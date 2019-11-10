@@ -1,5 +1,6 @@
 import React from 'react';
 import { About } from '../components/styledAbout';
+import ContactForm from '../components/contactForm';
 
 export default () => (
 	<About lang='en'>
