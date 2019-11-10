@@ -23,7 +23,9 @@ const About = styled.div`
 	.contacts {
 		@media only screen and (max-width: 800px) {
 			grid-column: 2/12;
+            grid-row: span 1;
 		}
+        width:100%;
         margin:auto;
         text-align:center;
 		grid-column: 3/11;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const CForm=styled.div `
     width:600px;
     max-width:100%;
+    margin:auto;
     padding:15px;
     box-sizing:border-box;
     
