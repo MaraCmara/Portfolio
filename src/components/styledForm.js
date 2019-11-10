@@ -30,7 +30,7 @@ const CForm=styled.div `
             width:564px;
             padding:2px;
             border:none;
-            border-bottom:1px solid black;
+            border-bottom:2px solid gray;
             margin-bottom:20px;
             };
         textarea{display:block;
@@ -41,7 +41,7 @@ const CForm=styled.div `
             max-width:100%;
             height:300px;
             padding:2px;
-            border:1px solid black;
+            border:1px solid gray;
             margin-bottom:5px;
             };
         .button{

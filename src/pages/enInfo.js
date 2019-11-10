@@ -5,8 +5,8 @@ export default () => (
 	<About lang='en'>
 		<img
 			className='portrait'
-			src='/IMG/profileImg.jpg'
-			alt='Martina Fischmeister'
+			src='/profileImg.jpg'
+			alt='Marek Kulhavý'
 		/>
 		<span className='about'>
 			<h1>Marek Kulhavý aka Mára Čmára</h1>

@@ -1,13 +1,10 @@
 import React from 'react';
 import { About } from '../components/styledAbout';
+import ContactForm from '../components/contactForm';
 
 export default () => (
 	<About>
-		<img
-			className='portrait'
-			src='/IMG/profileImg.jpg'
-			alt='Martina Fischmeister'
-		/>
+		<img className='portrait' src='/profileImg.jpg' alt='Marek Kulhavý' />
 		<span className='about'>
 			<h1>Marek Kulhavý aka Mára Čmára</h1>
 			<p>
@@ -20,10 +17,24 @@ export default () => (
 				Univerzity Karlovy. Mou tvorbu můžete znát i ze soutěží „Raw Art
 				Wrestling“ a „Art Wall“ nebo komiksového festivalu KOMA.
 			</p>
-            <p>
-        Mohu pro Vás ilustrovat články, obálky magazínů a knih, obaly hudebních desek, komiksy, weby či návrhy pro mural art. Fantazii se meze nekladou.
+			<p>
+				Mohu pro Vás ilustrovat články, obálky magazínů a knih, obaly hudebních
+				desek, komiksy, weby či návrhy pro mural art. Fantazii se meze nekladou.
+			</p>
+		</span>
+		<span className='contacts'>
+			<h1>Kontakty</h1>
+			<ContactForm />
+        
+			<p>Marek Kulhavý</p>
+			<a href='mailto:mara.kulhavy@gmail.com'>e-mail: mara.kulhavy@gmail.com</a><br/>
+			<a href='tel: +420 732 113 436'>tel: +420 732 113 436</a>
 
-		</p>
+			<p>
+				Ič: 07798288
+				<br /> V rejstříku od: 14.1.2019
+			</p>
+            
 		</span>
 	</About>
 );

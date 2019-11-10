@@ -5,6 +5,7 @@ import BurgerNav from './components/BurgerNav'
 import NavBar from './components/NavBar';
 import {LangProvider} from './LangContext';
 import {NavProvider} from './NavContext';
+import {ContactBar} from './components/ContactBar';
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
@@ -22,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
       font-family:'Big Shoulders Display',sans-serif;
     font-weight:thin;
     margin:0;
+    margin-bottom:100px;
     padding: 0;
     width:100%;
     height:100%;
@@ -56,6 +58,7 @@ function App() {
             <Body>
               <Routes path="*"/>
             </Body>
+            <ContactBar/>
             </LangProvider>
           </React.Suspense>
         </Root>
