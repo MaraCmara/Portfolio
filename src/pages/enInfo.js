@@ -29,12 +29,13 @@ export default () => (
 		</span>
         <span className='contacts'>
 			<h1>Contact</h1>
-			<ContactForm />
-        
 			<p>Marek Kulhavý</p>
 			<a href='mailto:mara.kulhavy@gmail.com'>e-mail: mara.kulhavy@gmail.com</a><br/>
 			<a href='tel: +420 732 113 436'>tel: +420 732 113 436</a>
 
+			<ContactForm />
+        
+		
 			<p>
 				Ič: 07798288
 				<br />In registry since: 14.1.2019
