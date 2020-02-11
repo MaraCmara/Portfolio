@@ -50,17 +50,15 @@ export default {
             <meta charSet="UTF-8"/>
             <title>Mára Čmára</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="description" content="Mohu pro Vás ilustrovat knihy, články, weby, plakáty,
-             zpracovat svatební oznámení, návrh na tetování nebo vyhotovit portrét. Projektům se meze nekladou!" />
+            <meta name="description" content="Mára Čmára Illustration" />
             <meta name="author" content="Michal Hlaváč" />
             <meta name="keywords" content="" />
             <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-logo-16.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-logo-32.png" />
             <meta property="og:title" content="Mára Čmára"/>
-            <meta property="og:description" content="Mohu pro Vás ilustrovat knihy, články, weby, plakáty,
-             zpracovat svatební oznámení, návrh na tetování nebo vyhotovit portrét. Projektům se meze nekladou!"/>
-            <meta property="og:image" content="https://martina-fischmeisterr.netlify.com/IMG/personal_work/personal_work.jpg"/>
-            <meta property="og:url" content="https://martina-fischmeisterr.netlify.com/"/>
+            <meta property="og:description" content="Mohu pro Vás ilustrovat články, obálky magazínů a knih, obaly hudebních desek, komiksy, weby či návrhy pro mural art. Fantazii se meze nekladou."/>
+            <meta property="og:image" content="https://https://maracmara.com/IMG/22/01.jpg"/>
+            <meta property="og:url" content="https://https://maracmara.com/"/>
           </Head>
           <Body>{children}</Body>
         </Html>
